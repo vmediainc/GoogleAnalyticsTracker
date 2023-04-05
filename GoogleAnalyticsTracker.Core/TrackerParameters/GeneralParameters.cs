@@ -397,6 +397,7 @@ public abstract class GeneralParameters : IGeneralParameters
             else if (dimension.Key == 18) CustomDimension18 = value;
             else if (dimension.Key == 19) CustomDimension19 = value;
             else if (dimension.Key == 20) CustomDimension20 = value;
+            else if (dimension.Key == 21) CustomDimension21 = value;
         }
     }
 
@@ -459,7 +460,9 @@ public abstract class GeneralParameters : IGeneralParameters
         
     [Beacon("cd20")]
     public string? CustomDimension20 { get; set; }
-        
+    
+    [Beacon("cd21")]
+    public string? CustomDimension21 { get; set; }
     #endregion
 
     #region Implementation of ICustomMetricParameters
