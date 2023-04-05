@@ -47,4 +47,6 @@ public interface ICustomDimensionParameters
     string? CustomDimension19 { get; set; }
 
     string? CustomDimension20 { get; set; }
+    
+    string? CustomDimension21 { get; set; }
 }
